@@ -1,0 +1,31 @@
+body,html{
+	max-width: 750px;
+	background-color: #edeef1;
+	height: 100%;
+	overflow:auto;
+}
+.swiper-slide{
+	background-color: #fff;
+}
+.swiperOne {
+	width: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	-ms-perspective: 1200px;
+	perspective: 1200px;
+	margin-top: 20px;
+}
+
+.swiperOne  .swiper-slide {
+	width: 80%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d
+}
+
+.swiperOne  .swiper-slide .main-img {
+	width: 90%;
+	margin: 0 auto;
+	display: block
+}
